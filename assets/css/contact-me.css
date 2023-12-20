@@ -1,18 +1,24 @@
+
 #contact-me article ul{
+    max-width: 912px;
+    min-width: 250px;
     list-style-type: none;
     display: flex;
-    justify-content: space-around;
-    align-content: center;
+    justify-content: space-between;
+    padding-top: 15px;
 }
 #contact-me article ul li a{
     text-align: center;
     margin: 5px;
+    text-decoration: none;
+    color: var(--main-dark-color);
 }
 #contact-me article ul li hr{
     width: 100%;
-    border-color: aqua;
-    color: aqua;
-    background-color: aqua;
+    border-color: var(--main-dark-color);
+    color: var(--main-dark-color);
+    background-color: var(--main-dark-color);
+    margin-top: 3px;
 }
 #contact-me{
     padding-bottom: 25px;

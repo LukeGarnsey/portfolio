@@ -1,15 +1,15 @@
+
 #work article{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    gap: 10px;
 }
 .project-container{
     max-width: 912px;
     min-width: 250px;
     display: flex;
     flex-direction: row;
-    gap: 10px 2%;
+    gap: 3%;
+    margin-bottom: 15px;
 }
 .project-big{
     max-width: 100%;
@@ -23,12 +23,12 @@
 .project-container div img{
     max-width: 100%;
     height:100%;
-    outline: aqua groove 4px;
+    outline: var(--main-accent-color) solid 4px;
 }
 .project-overlay{
-    background-color: aqua;
+    background-color: var(--main-accent-color);
     font-size: x-large;
-    color:black;
+    color:var(--main-dark-color);
 
     position: absolute;
     left: 0;
