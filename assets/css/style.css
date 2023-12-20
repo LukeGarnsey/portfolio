@@ -62,7 +62,7 @@ figure img{
 figure {
   position: relative;
 }
-main figure h3{
+figure h3{
   background-color: aqua;
   font-size: x-large;
   color:black;
@@ -76,7 +76,7 @@ main{
   display: flex;
   flex-direction: column;
 }
-section{
+main{
   display: flex;
   flex-direction: column;
 }
@@ -102,10 +102,62 @@ section{
   margin: 15px;
   font-size: x-large;
 }
-#about-me div,
-#work div,
-#contact-me div{
+#about-me article,
+#work article,
+#contact-me article{
   width: 80%;
   margin:15px;
   min-width: 300px;
+}
+
+#work article{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px 2%;
+  max-width: 1000px;
+  align-content: start;
+}
+.project-container{
+  max-width: 912px;
+  min-width: 250px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px 2%;
+}
+.project{
+  max-width: 456px;
+  min-width: 125px;
+  outline: aqua groove 4px;
+  box-shadow: inset;
+
+  position: relative;
+}
+
+#project-top{
+  max-width: 912px;
+  min-width: 250px;
+}
+.project img{
+  max-width: 100%;
+  height:100%;
+}
+
+.project div{
+  background-color: aqua;
+  font-size: x-large;
+  color:black;
+
+  position: absolute;
+  left: 0;
+  bottom: 20px;
+}
+.project div h4 {
+  font-size: medium;
+  margin: 10px;
+}
+.project div h5 {
+  font-size: small;
+  margin: 10px;
 }
