@@ -111,8 +111,27 @@ main{
   margin: 15px 50px 15px 15px;
   min-width: 300px;
 }
-
-#about-me article p{
+#about-me-container{
   max-width: 912px;
   min-width: 250px;
+  display: flex;
+  flex-direction: row;
+  gap: 3%;
+  margin-bottom: 15px;
+}
+#about-me-container p{
+  max-width: 100%;
+  min-width: 125px;
+}
+#about-me-container img{
+  border-radius: 25%;
+  max-width: 250px;
+  min-width: 250px;
+}
+@media screen and (max-width: 786px) {
+  #about-me-container{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:25px;
+  }
 }
