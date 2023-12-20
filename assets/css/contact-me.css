@@ -1,0 +1,19 @@
+#contact-me article ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+#contact-me article ul li a{
+    text-align: center;
+    margin: 5px;
+}
+#contact-me article ul li hr{
+    width: 100%;
+    border-color: aqua;
+    color: aqua;
+    background-color: aqua;
+}
+#contact-me{
+    padding-bottom: 25px;
+}

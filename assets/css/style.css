@@ -1,25 +1,27 @@
 header{
   display: flex;
   justify-content: space-between;
-  /* margin: 25px 0; */
+  flex-wrap: wrap;
   padding: 25px 0;
   background-color: black;
   color: aqua;
+  min-width: 480px;
 }
 header div {
-  background-color: aqua;
-  padding: 10px;
-  margin: auto 0;
+  
+  /* padding: 10px 0;
+  margin: auto 0; */
   width: 275px;
   min-width: 275px;
 }
 header div h1{
-  padding-left: 25px;
+  padding: 4px 0 8px 25px;
   color:black;
   font-size: xx-large;
+  background-color: aqua;
 }
 header nav{
-  padding: 25px 50px 25px 0;
+  padding: 8px 50px 0 0;
   width: 400px;
   min-width: 400px;
   /* background-color: blue; */
@@ -33,16 +35,6 @@ header nav ul{
   justify-content: space-around;
   align-content: center;
 }
-/* header nav ul li{ */
-  /* background-color: blueviolet; */
-  /* outline: aqua solid 6px; */
-  /* border-bottom: aqua solid 5px; */
-  /* padding: 0 5px; */
-  /* text-decoration: underline;
-  text-decoration-thickness: 5px; */
-  
-  
-/* } */
 header nav ul li a{
   text-align: center;
   margin: 5px;
@@ -54,13 +46,13 @@ header nav ul li hr{
   background-color: aqua;
 }
 
+figure {
+  position: relative;
+  min-width: 480px;
+}
 figure img{
   width: 100%;
   height: 150px;
-
-}
-figure {
-  position: relative;
 }
 figure h3{
   background-color: aqua;
@@ -108,56 +100,4 @@ main{
   width: 80%;
   margin:15px;
   min-width: 300px;
-}
-
-#work article{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 10px 2%;
-  max-width: 1000px;
-  align-content: start;
-}
-.project-container{
-  max-width: 912px;
-  min-width: 250px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 10px 2%;
-}
-.project{
-  max-width: 456px;
-  min-width: 125px;
-  outline: aqua groove 4px;
-  box-shadow: inset;
-
-  position: relative;
-}
-
-#project-top{
-  max-width: 912px;
-  min-width: 250px;
-}
-.project img{
-  max-width: 100%;
-  height:100%;
-}
-
-.project div{
-  background-color: aqua;
-  font-size: x-large;
-  color:black;
-
-  position: absolute;
-  left: 0;
-  bottom: 20px;
-}
-.project div h4 {
-  font-size: medium;
-  margin: 10px;
-}
-.project div h5 {
-  font-size: small;
-  margin: 10px;
 }
