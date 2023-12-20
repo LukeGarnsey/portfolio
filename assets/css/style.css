@@ -38,6 +38,8 @@ header nav ul{
 header nav ul li a{
   text-align: center;
   margin: 5px;
+  text-decoration: none;
+  color: var(--main-accent-color);
 }
 header nav ul li hr{
   width: 100%;
