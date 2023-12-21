@@ -135,3 +135,18 @@ main{
     gap:25px;
   }
 }
+@media screen and (max-width: 545px){
+  #about-me aside,
+  #work aside,
+  #contact-me aside{
+    
+    min-width: 110px;
+  }
+  #about-me aside h2,
+  #work aside h2,
+  #contact-me aside h2{
+    margin: 8px 15px 0 0;
+    font-size: x-large;
+    width: 90px;
+  }
+}

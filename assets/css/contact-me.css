@@ -29,7 +29,7 @@
     padding-bottom: 25px;
 }
 
-@media screen and (max-width: 648px) {
+@media screen and (max-width: 700px) {
     #contact-me article ul{
         flex-wrap: wrap;
         flex-direction: column;
