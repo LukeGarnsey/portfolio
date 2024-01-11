@@ -8,13 +8,24 @@
     min-width: 250px;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
     gap: 3%;
     margin-bottom: 15px;
+    
 }
 .project-big{
     max-width: 100%;
     position: relative;
+    outline: var(--main-accent-color) solid 4px;
+    height: 450px;
+    width: 100%;
+}
+.project{
+    max-width: 456px;
+    min-width: 125px;
+    height: 275px;
+    position: relative;
+    outline: var(--main-accent-color) solid 4px;
+    flex: 1 1 0px;
 }
 .overlay{
     background-color: #9a9a9a57;
@@ -32,15 +43,11 @@
     background-color: rgba(0, 0, 0, 0.375);
     
 }
-.project{
-    max-width: 456px;
-    min-width: 125px;
-    position: relative;
-}
+
 .project-container div img{
     max-width: 100%;
     height:100%;
-    outline: var(--main-accent-color) solid 4px;
+    object-fit: cover;
 }
 .project-overlay{
     background-color: var(--main-accent-color);
@@ -61,11 +68,17 @@
 }
 
 @media screen and (max-width: 786px) {
+    .project{
+        flex: auto;
+    }
     .project-container{
         flex-wrap: wrap;
     }
     .project{
         max-width: 100%;
         position: relative;
+    }
+    .project-big{
+        height: 300px;
     }
   }
